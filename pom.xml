@@ -15,7 +15,9 @@
 		<version>1.5.2.RELEASE</version>
 	</parent>
 
-	
+	<properties>
+		<docker.image.prefix>rsmortgage</docker.image.prefix>
+	</properties>
 
 	<dependencyManagement>
 		<dependencies>
